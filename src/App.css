@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./Img/fall.jpg);
+  /* background-repeat: no-repeat;
+  background-size: 100vh; */
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  min-height: 50vh;
+  text-align: center;
+  font-family: arial, sans-serif;
+  background-color: rgb(30, 197, 209);
+  margin-right: 150px;
+  margin-top: 150px;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-size: 60px;
+  color: white;
+}
+
+input,
+select,
+option {
+  /* background-color: white; */
+  height: 35px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 2rem;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid red;
+}
+
+.convert {
+  width: 35vw;
+}
+
+.convertButton {
+  background-color: #000;
+  color: white;
+  height: 35px;
+  width: 80px;
+  padding: 5px;
+  border-radius: 2rem;
+  border: 2px solid red;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+}
+
+.convertButton:hover {
+  transform: scale(1.1);
+}
+
+.result {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
